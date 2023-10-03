@@ -1,5 +1,5 @@
 import axios from "axios";
 
 export const AxiosRequest = axios.create({
-  baseURL: "http://localhost:3000/api/",
+  baseURL: "https://blog-backend-orcin.vercel.app/api/",
 });
